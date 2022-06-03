@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+      <div class = "backgroundContainer">
+        <video id = "background" muted autoplay loop> 
+            <source src = "resources/AnimationWallpaper.mp4" type = "video/mp4"></src>
+        </video>
+
+        <audio id = "backgroundMusic" class = "bgm" src = "resources/SoundTrack.mp3" loop></audio>
+    </div>
+
+    </div>
+    <div class="headerBar">
+      <div class="leftBarContainer">
+        <a class="logoContainer" href=".">
+          <div class="logoImageContainer">
+            <img class="logoImage" src="resources/WarzoneLogo.png" />
+          </div>
+        </a>
+        <img id = "audioController" src = "resources/audioControllerOn.png" onclick = "audioController(); imageChange();">
+
+
+      </div>
+
+      <div class="sourcesContainer">
+        <button class="link" onclick="showOrHide()">Sources</button>
+        <div class="dropdownContent" style="display: none">
+          <div class="aboutCopyright">
+            Had issues in the past with copyright. Updated to make sure all the
+            content here are credited if necessary and free to use.
+          </div>
+          <br />
+          <div class="sourceC">
+            First background author (MerlimAmbrosuis):
+            <a
+              class="sourcesLink"
+              href="https://www.pixiv.net/en/users/25088958/illustrations"
+              target="_blank"
+              >https://www.pixiv.net/en/users/25088958/illustrations</a
+            >
+          </div>
+          <br />
+          <div class="sourceC">
+            First background source:
+            <a
+              class="sourcesLink"
+              href="https://www.youtube.com/watch?v=7zG87aNNf20&amp;list=PL_mGxmgVfH1ORtai56pXbkWdlfRjcl1K2&amp;index=21"
+              target="_blank"
+              >https://www.youtube.com/watch?v=7zG87aNNf20&amp;list=PL_mGxmgVfH1ORtai56pXbkWdlfRjcl1K2&amp;index=21</a
+            >
+            | Channel that primarily uploads open source animated backgrounds
+          </div>
+          <br />
+          <div class="sourceC">
+            "Reimu be sweepin" author (ryosios):
+            <a
+              class="sourcesLink"
+              href="https://www.pixiv.net/en/users/1508165"
+              target="_blank"
+              >https://www.pixiv.net/en/users/1508165</a
+            >
+            | His art can be used if it isn't for commercial purposes and is
+            credited appropriately.
+          </div>
+          <br />
+          <div class="sourceC">
+            Second background author (ryosios):
+            <a
+              class="sourcesLink"
+              href="https://www.pixiv.net/en/users/1508165"
+              target="_blank"
+              >https://www.pixiv.net/en/users/1508165</a
+            >
+          </div>
+          <br />
+          <div class="sourceC">
+            First music author (Dropの小屋):
+            <a
+              class="sourcesLink"
+              href="https://www.muxiv.net/artist/159840"
+              target="_blank"
+              >https://www.muxiv.net/artist/159840</a
+            >
+            | Can be listened from the first music in the album
+          </div>
+          <br />
+          <div class="sourceC">
+            Second music author (まいなすいょん):
+            <a
+              class="sourcesLink"
+              href="https://twitter.com/minusiyon"
+              target="_blank"
+              >https://twitter.com/minusiyon</a
+            >
+          </div>
+          <br />
+          <div class="sourceC">
+            Second music source:
+            <a
+              class="sourcesLink"
+              href="https://www.youtube.com/watch?v=kUH6dLxa4xo&amp;list=PLzjkiYUjXueukuu7iUy5lPCueWz8a7Tpg&amp;index=23"
+              target="_blank"
+              >https://www.youtube.com/watch?v=kUH6dLxa4xo&amp;list=PLzjkiYUjXueukuu7iUy5lPCueWz8a7Tpg&amp;index=23</a
+            >
+          </div>
+          <br />
+          <div class="dm">
+            If you have any concerns about the availability of any of the
+            content here, please message me on discord | Lyrenide#3493
+          </div>
+        </div>
+      </div>
+      <div class="rightBarContainer">
+        <div class="rightBarStuff">
+          <a class="about hamburgerStuff" href="#">About</a>
+          <img
+            class="separator hamburgerStuff"
+            src="resources/RightBarLogo.png"
+          />
+          <a class="KD hamburgerStuff" href="#">K/D</a>
+          <img
+            class="separator hamburgerStuff"
+            src="resources/glowySquare.png"
+          />
+          <a class="Stats hamburgerStuff" href="#">Stats</a>
+          <img
+            class="separator hamburgerStuff"
+            src="resources//glowySquare.png"
+          />
+          <a class="Scoreboard hamburgerStuff" href="#">Scoreboard</a>
+        </div>
+        <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+      </div>
+    </div>
+  </body>
+</html>
